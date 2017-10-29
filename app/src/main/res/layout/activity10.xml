@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="@string/Q10"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:id="@+id/rb37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Countresult"
+        android:layout_marginTop="26dp"
+        android:text="@string/rb37"
+        android:layout_below="@+id/t10"
+        android:layout_alignStart="@+id/t10"
+        android:layout_marginStart="35dp" />
+
+    <RadioButton
+        android:id="@+id/rb38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Countresult"
+        android:text="@string/rb38"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/rb37"
+        android:layout_alignStart="@+id/rb37" />
+
+    <RadioButton
+        android:id="@+id/rb39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rb39"
+        android:onClick="Countresult"
+        android:layout_below="@+id/rb38"
+        android:layout_alignStart="@+id/rb38"
+        android:layout_marginTop="31dp" />
+
+    <RadioButton
+        android:id="@+id/rb40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Countresult"
+        android:text="@string/rb40"
+        android:layout_below="@+id/rb39"
+        android:layout_alignStart="@+id/rb39"
+        android:layout_marginTop="36dp" />
+
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Gotohome"
+        android:background="@color/colorAccent"
+        android:text="@string/b10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp" />
+</RelativeLayout>
